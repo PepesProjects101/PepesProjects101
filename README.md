@@ -1,4 +1,4 @@
-# Hi! I’m Grant 👋
+# Hi! I’m Grant 
 
 **Maker | Embedded Developer | 3D Printing Enthusiast**
 
@@ -12,7 +12,7 @@ I feel the best way to learn engineering is to build something then break it, fi
 
 ---
 
-## 🛠️ Tools & Technologies Used
+##  Tools & Technologies Used
 
 ### Electronics & Embedded
 * **Microcontrollers:** ESP32, ESP32-S3, ESP32-C3, Arduino Mega, Arduino Uno
@@ -38,7 +38,7 @@ I use 3D Printing to create bespoke casings, mounting brackets, components and e
 
 ---
 
-## 🚀 Projects
+##  Projects
 A selection of some of my hardware, software and engineering projects.
 
 ### 1. Digital Shop Multitool
@@ -141,7 +141,7 @@ This is a mini retro console using the Raspberry Pi 5 & Batocera.
 
 ---
 
-## 🔬 Interests
+##  Interests
 * **Embedded Systems** - Creating more complex devices using ESP32 & Arduino.
 * **Custom Hardware** - Creating full electronic products.
 * **PC Automation** - Adding physical buttons and microcontrollers to desktop applications.
@@ -149,7 +149,7 @@ This is a mini retro console using the Raspberry Pi 5 & Batocera.
 * **UI** - Creating sleek touchscreens.
 * **Portable Electronics** - Creating handheld gaming devices, wearables & more.
 
-## 🎯 Process
+##  Process
 I enjoy taking a project from concept to physical product. The steps I take are:
 1. Create an idea and figure out how it will work.
 2. Choose the right microcontrollers, sensors and components.

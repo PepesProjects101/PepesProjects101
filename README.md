@@ -1,177 +1,159 @@
-# Hey, I'm Grant 👋
+# Hi! I’m Grant 👋
 
-Maker · Embedded Systems Developer · 3D Printing Enthusiast
+**Maker | Embedded Developer | 3D Printing Enthusiast**
 
-I'm a maker and hardware enthusiast from Connecticut who enjoys turning ideas into functional, real-world projects. I work at the intersection of embedded electronics, software development, 3D printing, and product design.
+I’m a Hardware & Maker enthusiast from Connecticut. I love creating real world projects by taking ideas and turning them into a functioning project. I Work With embedded systems, software, 3d printing and product design.
 
-Most of my projects involve designing and building custom electronics from the ground up — from writing firmware and integrating sensors to designing enclosures, developing PC-side software, and bringing everything together into a finished product.
+The majority of my projects involve creating bespoke electronics. This can be anything from writing firmware, adding sensors and designing casings, alongside software for the PC.
 
-I enjoy experimenting with new hardware, solving engineering problems, and pushing inexpensive microcontrollers to do things they weren't necessarily designed for.
+I love experimenting with new hardware, solving engineering problems and getting cheap microcontrollers to do things they weren’t designed for.
 
-I believe the best way to learn engineering is to build something, break it, figure out why, and make it better.
+I feel the best way to learn engineering is to build something then break it, find out why and improve it.
 
 ---
 
-## 🛠️ What I Work With
+## 🛠️ Tools & Technologies Used
 
-### Electronics & Embedded Systems
+### Electronics & Embedded
 * **Microcontrollers:** ESP32, ESP32-S3, ESP32-C3, Arduino Mega, Arduino Uno
-* **Single-Board Computers:** Raspberry Pi 5, Raspberry Pi Zero
-* **Displays:** TFT LCD, OLED, SPI displays, touchscreen interfaces
-* **Components:** Sensors, relays, gyroscopes, temperature sensors, buttons, and custom circuits
-* **Communication:** I²C, SPI, UART, Serial, Wi-Fi, Bluetooth
-* **Development:** Arduino IDE, PlatformIO, embedded C/C++, LVGL
+* **SBC:** Raspberry Pi 5, Raspberry Pi Zero
+* **Displays:** TFT LCD, OLED, SPI Displays, Touchscreens
+* **Components:** Sensors, Relays, Gyros, Temp Sensors, Buttons, Custom Circuits
+* **Communication:** I²C, SPI, UART, Serial, WiFi, Bluetooth
+* **Software:** Arduino IDE, PlatformIO, Embedded C/C++, LVGL
 
-### 3D Printing & Mechanical Design
-* **Printer:** Creality Ender 3 V2 Neo
-* **Upgrades:** Sprite Pro direct drive, dual Z-axis, and MRiscoC firmware
-* **Modeling:** Blender, custom enclosure design, functional mechanical parts
-* **Fabrication:** Rapid prototyping, hardware integration, iterative design, and custom printed components
+### 3D Printing
+* **3D Printer:** Creality Ender 3 v2 Neo
+* **Upgrades:** Sprite Pro Direct Drive, Dual Z Axis, MRiscoC Firmware
+* **Modeling:** Blender, Bespoke Casings, Functional Components
+* **Prototyping:** Rapid Prototyping, Hardware Integration, Iterative Design, Custom Printed Components
 
-I use 3D printing to create purpose-built housings, mounts, mechanical components, and complete enclosures for my electronics projects.
+I use 3D Printing to create bespoke casings, mounting brackets, components and enclosures.
 
-### Software & Programming
-* **C/C++:** Microcontroller firmware, embedded applications, and hardware control
-* **Python:** PC automation, serial communication, desktop utilities, and hardware backends
-* **HTML/CSS:** Web interfaces and browser-based control panels
-* **Other Tools:** Git, GitHub, Arduino IDE, VS Code, and CAD/modeling software
+### Software & Coding
+* **C/C++:** Microcontroller Firmware, Embedded Applications
+* **Python:** PC Automation, Serial Communication, Desktop Applications
+* **Web Applications:** HTML/CSS
+* **Tools:** Git/GitHub, Arduino IDE, VS Code, CAD/Modelling
 
 ---
 
-## 🚀 Featured Projects
-
-A collection of my hardware, software, and engineering projects.
+## 🚀 Projects
+A selection of some of my hardware, software and engineering projects.
 
 ### 1. Digital Shop Multitool
-**ESP32-C3 · Embedded C++ · Sensors · 3D Printing**
+**ESP32-C3 | Embedded C++ | Sensors | 3D Printing**
 
-A custom-built, 3D-printed handheld multifunction shop tool designed to combine several useful measurement and diagnostic tools into one compact device.
+This is a bespoke, 3D printed handheld multitool used for multiple tasks in a workshop.
 
-**Features include:**
-* Laser distance measurement
-* Infrared temperature sensing
-* Color detection and sensing
-* Gyroscope-based digital level
-* Dual OLED displays (0.91" & 0.96")
-* Custom handheld enclosure
+**Features:**
+* Laser Ranging
+* IR Thermometer
+* Colour Detection
+* Digital Level using Gyro
+* 2 OLED Displays (0.91" & 0.96")
+* Custom handheld casing
 
 [View Project](https://github.com/PepesProjects101/digital-shop-multitool)
 
 ---
 
 ### 2. MacroTimmy
-**Arduino Mega · Python · 1.3" OLED · PC Automation**
+**Arduino Mega | Python | 1.3" OLED | PC Automation**
 
-A custom programmable macro pad and PC control center designed to provide convenient access to system controls, audio adjustments, and application shortcuts.
+This is a bespoke macro pad and PC controller.
 
-**Features include:**
-* Four-channel PC audio mixer
-* Individual volume control
-* System brightness adjustment
-* 1.3-inch OLED status display
-* 10-button matrix and analog joystick
-* Python backend for Windows integration
-* Serial communication between the Arduino and PC
+**Features:**
+* 4 Channel PC Audio Mixer
+* Volume Control
+* Brightness Control
+* 1.3" OLED Display
+* 10 Button Matrix with Analogue Joystick
+* Python Backend for Windows
+* Arduino Serial Communication
 
 [View Project](https://github.com/PepesProjects101/macrotimmy)
 
 ---
 
 ### 3. SmarterWatch
-**ESP32-S3 · Touchscreen · Embedded C++ · 3D Printing**
+**ESP32-S3 | Touchscreen | Embedded C++ | 3D Printing**
 
-A custom-built smartwatch based around a Waveshare ESP32-S3 round touchscreen display.
+This is a bespoke smartwatch using a Waveshare ESP32-S3 round touchscreen.
 
-**Highlights:**
-* ESP32-S3 microcontroller
-* Round touchscreen display
-* Custom-designed user interface
-* Embedded firmware
-* 3D-printed watch enclosure
+**Features:**
+* ESP32-S3 Microcontroller
+* Round Touchscreen
+* Bespoke UI
+* Firmware
+* 3D Printed Watch Casing
 
 [View Project](https://github.com/PepesProjects101/smarterwatch)
 
 ---
 
 ### 4. MacinClock
-**ESP32 · ILI9341 · Embedded C++**
+**ESP32 | ILI9341 | Embedded C++**
 
-A miniature vintage Macintosh-inspired desktop clock that recreates the aesthetic of classic Apple computers in a compact physical device.
+This is a mini retro Macintosh style desktop clock.
 
-**Features include:**
-* ESP32-powered electronics
-* ILI9341 color display
-* Retro Macintosh-inspired interface
-* DS3231 RTC module
-* Compact desktop enclosure
+**Features:**
+* ESP32 Electronics
+* ILI9341 Colour Display
+* Retro Macintosh Style UI
+* DS3231 RTC Module
+* Mini Desktop Casing
 
 [View Project](https://github.com/PepesProjects101/macinclock)
 
 ---
 
-### 5. Web-Controlled Filament Dryer
-**ESP32 · Wi-Fi · HTML · Temperature Control**
+### 5. Timmy 2.0
+**ESP32 | C++ | TFT Display | 3D Printing**
 
-A custom filament drying system designed to help maintain 3D printing filament by controlling a heated drying enclosure.
+This is a bespoke ESP32 handheld gaming device.
 
-**Highlights:**
-* Wi-Fi connectivity and web control interface
-* ESP32-based control electronics
-* Relay-controlled heating
-* Repurposed Ender 3 heatsink and cooling fan
-
-[View Project](https://github.com/PepesProjects101/esp32-filament-dryer)
-
----
-
-### 6. Timmy 2.0
-**ESP32 · C++ · TFT Display · 3D Printing**
-
-A custom ESP32-powered handheld gaming device designed and built from scratch.
-
-**Highlights:**
-* ESP32 microcontroller
-* 320 × 240 display
-* Custom C++ firmware
-* Physical gaming controls and 3D-printed enclosure
+**Features:**
+* ESP32 Microcontroller
+* 320 x 240 Display
+* Custom C++ Firmware
+* Physical Buttons & 3D Printed Casing
 
 [View Project](https://github.com/PepesProjects101/timmy-2)
 
 ---
 
-### 7. PocketPi Series
-**Raspberry Pi Zero · Retro Gaming · Portable Electronics**
+### 6. PocketPi
+**Raspberry Pi Zero | Retro Gaming | Portable Electronics**
 
-A series of compact, portable retro gaming handhelds based on the PiGRRL Zero concept.
+These are a range of mini retro handhelds based around the PiGRRL Zero.
 
 [View Project](https://github.com/PepesProjects101/pocketpi)
 
 ---
 
-### 8. Batocera "Baby North"
-**Raspberry Pi 5 · Batocera · Retro Emulation**
+### 7. Batocera "Baby North"
+**Raspberry Pi 5 | Batocera | Retro Emulator**
 
-A compact retro gaming console built around the Raspberry Pi 5 and Batocera Linux.
+This is a mini retro console using the Raspberry Pi 5 & Batocera.
 
 [View Project](https://github.com/PepesProjects101/baby-north-console)
 
 ---
 
-## 🔬 Current Interests
+## 🔬 Interests
+* **Embedded Systems** - Creating more complex devices using ESP32 & Arduino.
+* **Custom Hardware** - Creating full electronic products.
+* **PC Automation** - Adding physical buttons and microcontrollers to desktop applications.
+* **3D Printing** - Creating functional casings, components & assemblies.
+* **UI** - Creating sleek touchscreens.
+* **Portable Electronics** - Creating handheld gaming devices, wearables & more.
 
-* **Embedded Systems:** Building increasingly complex devices with ESP32 and Arduino platforms.
-* **Custom Hardware:** Designing complete electronic products rather than just individual circuits.
-* **PC Automation:** Connecting physical controls and microcontrollers to desktop applications.
-* **3D Printing:** Developing functional enclosures, mechanical assemblies, and custom components.
-* **User Interfaces:** Creating polished touchscreen interfaces for embedded devices.
-* **Portable Electronics:** Building handheld gaming systems, wearables, and other compact devices.
-
-## 🎯 My Approach
-
-I enjoy handling the entire development process, from the initial concept to the finished physical product:
-1. Coming up with an idea and figuring out how it could work.
-2. Selecting the appropriate microcontrollers, sensors, and components.
-3. Designing the electronics and wiring.
-4. Writing firmware and supporting software.
-5. Modeling and 3D printing custom mechanical parts.
-6. Testing, troubleshooting, and refining the finished device.
+## 🎯 Process
+I enjoy taking a project from concept to physical product. The steps I take are:
+1. Create an idea and figure out how it will work.
+2. Choose the right microcontrollers, sensors and components.
+3. Design the circuitry.
+4. Write the firmware & software.
+5. Create bespoke mechanical components using modelling & 3D printing.
+6. Test, debug & improve.

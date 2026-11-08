@@ -1,219 +1,310 @@
-# Hey, I'm Grant 👋
+# Hey, I'm Grant! 👋
 
-Maker · Embedded Systems Developer · 3D Printing Enthusiast
+### Embedded Systems Developer · Maker · 3D Printing Enthusiast
 
-I'm a maker and hardware enthusiast from Connecticut who enjoys turning ideas into functional, real-world projects. I work at the intersection of embedded electronics, software development, 3D printing, and product design.
+I'm an 8th-grade maker and aspiring engineer from Connecticut. I enjoy designing and building custom electronics, embedded systems, microcontroller peripherals, and 3D-printed hardware from the ground up.
 
-Most of my projects involve designing and building custom electronics from the ground up — from writing firmware and integrating sensors to designing enclosures, developing PC-side software, and bringing everything together into a finished product.
+My projects combine firmware development, electronics, mechanical design, and software into functional physical devices. Whether it's building a custom handheld gaming console, engineering a multi-sensor measurement tool, or developing a PC control center, I enjoy taking an idea from a rough concept to a working prototype.
 
-I enjoy experimenting with new hardware, solving engineering problems, and pushing inexpensive microcontrollers to do things they weren't necessarily designed for.
+I'm particularly interested in the intersection of hardware and software: making physical devices interact with computers, designing custom interfaces, integrating sensors, and developing useful tools with inexpensive microcontrollers.
 
-I believe the best way to learn engineering is to build something, break it, figure out why, and make it better.
+**My philosophy:** The best way to learn engineering is to build something, break it, figure out why, and make it better.
 
 ---
 
-## 🛠️ What I Work With
+## 🛠️ Hardware & Technology
 
 ### Electronics & Embedded Systems
-* **Microcontrollers:** ESP32, ESP32-S3, ESP32-C3, Arduino Mega, Arduino Uno
-* **Single-Board Computers:** Raspberry Pi 5, Raspberry Pi Zero
-* **Displays:** TFT LCD, OLED, SPI displays, touchscreen interfaces
-* **Components:** Sensors, relays, gyroscopes, temperature sensors, rotary encoders, buttons, and custom circuits
-* **Communication:** I²C, SPI, UART, Serial, Wi-Fi, Bluetooth
-* **Development:** Arduino IDE, PlatformIO, embedded C/C++, LVGL
+- **Microcontrollers:** ESP32, ESP32-S3, ESP32-C3 SuperMini, Arduino Mega 2560, Arduino Uno R4 Minima, RP2040-LoRa
+- **Single-Board Computers:** Raspberry Pi 5 (2GB), Raspberry Pi Zero, Raspberry Pi Zero 2 W
+- **Displays:** ST7735, ST7789V, ILI9341, SSD1306 OLED, Waveshare touchscreen displays
+- **Sensors:** VL53L1X, MPU-6050, MLX90614, TCS34725, DS3231, NTC thermistors
+- **Communication:** I²C, SPI, UART, Serial, Wi-Fi, Bluetooth
+- **Frameworks:** Arduino, LVGL, PlatformIO
 
 ### 3D Printing & Mechanical Design
-* **Printer:** Creality Ender 3 V2 Neo
-* **Upgrades:** Sprite Pro direct drive, dual Z-axis, and MRiscoC firmware
-* **Modeling:** Blender, custom enclosure design, functional mechanical parts
-* **Fabrication:** Rapid prototyping, hardware integration, iterative design, and custom printed components
+- **3D Printer:** Creality Ender 3 V2 Neo
+- **Upgrades:** Sprite Pro Direct Drive, Dual Z-axis, MRiscoC Professional Firmware
+- **Bed Leveling:** Unified Bed Leveling (UBL)
+- **Printer Management:** OctoPrint
+- **CAD & Modeling:** Blender
+- **Fabrication:** Custom enclosures, functional mechanical components, prototyping, and hardware integration
 
-I use 3D printing to create purpose-built housings, mounts, mechanical components, and complete enclosures for my electronics projects.
-
-### Software & Programming
-* **C/C++:** Microcontroller firmware, embedded applications, and hardware control
-* **Python:** PC automation, serial communication, desktop utilities, and hardware backends
-* **HTML/CSS:** Web interfaces and browser-based control panels
-* **Other Tools:** Git, GitHub, Arduino IDE, VS Code, and CAD/modeling software
-
----
-
-## 🚀 Featured Projects
-
-A collection of my hardware, software, and engineering projects.
-
-### 1. Digital Shop Multitool
-**ESP32-C3 · Embedded C++ · Sensors · 3D Printing**
-
-A custom-built, 3D-printed handheld multifunction shop tool designed to combine several useful measurement and diagnostic tools into one compact device.
-
-**Features include:**
-* Laser distance measurement
-* Infrared temperature sensing
-* Color detection and sensing
-* Gyroscope-based digital level
-* Custom handheld enclosure
-* Integrated electronics and sensor modules
-
-The goal is to create a practical, portable tool that combines multiple workshop instruments into a single device.
-
-[View Project](https://github.com/PepesProjects101/digital-shop-multitool)
+### Programming & Software
+- **C/C++:** Embedded firmware, microcontroller applications, and custom gaming systems
+- **Python:** PC automation, serial communication, Windows control, and hardware backends
+- **HTML/CSS:** Web interfaces and ESP32 web applications
+- **Libraries & Tools:** Pycaw, PyAutoGUI, LVGL, Git, GitHub, Arduino IDE, VS Code, PlatformIO
 
 ---
 
-### 2. MacroTimmy
-**Arduino Mega · Python · OLED · PC Automation**
+# 🚀 Featured Projects
 
-A custom programmable macro pad and PC control center designed to provide convenient access to system controls, audio adjustments, and application shortcuts.
+A selection of my electronics, embedded software, and hardware engineering projects.
 
-**Features include:**
-* Four-channel PC audio mixer
-* Individual volume control
-* System brightness adjustment
-* OLED status display
-* Physical buttons and hardware controls
-* Python backend for Windows integration
-* Serial communication between the Arduino and PC
+## 01. Digital Shop Multitool
+**ESP32-C3 SuperMini · C++ · I²C · SPI · 3D Printing**
 
-The project combines physical controls with custom desktop software to create a dedicated hardware interface for everyday PC tasks.
+A compact, handheld multifunction workshop tool designed to combine several measurement instruments into one custom-built device.
 
-[View Project](https://github.com/PepesProjects101/macrotimmy)
+The project uses an ESP32-C3 SuperMini to integrate four different sensors alongside a color TFT display, all housed inside a custom 3D-printed enclosure.
+
+**Hardware:**
+- ESP32-C3 SuperMini
+- ST7735 SPI TFT display
+- VL53L1X laser time-of-flight distance sensor
+- MPU-6050 6-axis accelerometer and gyroscope
+- MLX90614 non-contact infrared thermometer
+- TCS34725 RGB color sensor
+
+**Features:**
+- Laser-based distance measurement
+- Non-contact infrared temperature readings
+- Digital level and angle measurement
+- RGB color detection
+- Integrated sensor monitoring
+- Custom handheld 3D-printed enclosure
+
+The sensors communicate over a shared I²C bus, while the ST7735 display uses SPI.
+
+The goal is to create an inexpensive, portable workshop instrument that combines multiple tools into one device.
+
+[**View Repository →**](https://github.com/PepesProjects101/digital-shop-multitool)
+
+## 02. MacroTimmy
+**Arduino Mega 2560 · Python · Windows Automation · OLED**
+
+A custom desktop macro pad and PC control center originally developed for Coolest Projects 2026.
+
+MacroTimmy combines a physical control interface with a Python backend to provide direct control over Windows audio, monitor brightness, and frequently used applications.
+
+**Hardware:**
+- Arduino Mega 2560
+- 0.96-inch SSD1306 I²C OLED
+- 10-button macro matrix
+- Analog joystick / rotary encoder
+- USB serial communication
+
+**Python Backend (`macrotimmy.py`):**
+
+**Four-channel audio mixer**
+- Master Windows volume
+- Spotify audio
+- Active game audio
+- Microsoft Edge audio
+
+Uses Pycaw to communicate with Windows audio sessions.
+
+**Dual-monitor brightness control**
+- Lenovo Generic Monitor
+- Dell S2340M
+
+Uses `screen_brightness_control` to adjust monitor brightness independently.
+
+**Programmable macro controls**
+- Arduino IDE
+- UltiMaker Cura 5.8.1
+- Steam
+- Microsoft Edge
+
+Uses PyAutoGUI for application launching and desktop automation.
+
+**OLED interface:**
+- Custom "MacroTimmy By Grant R." splash screen
+- Serial connection status
+- System dashboard
+- Individual volume sliders
+- Monitor brightness indicators
+
+The Arduino and Python backend communicate through serial over COM3.
+
+The goal is to create a dedicated physical interface for controlling a PC without constantly switching between desktop applications and system settings.
+
+[**View Repository →**](https://github.com/PepesProjects101/macrotimmy)
+
+## 03. SmarterWatch
+**ESP32-S3 · C++ · LVGL · Touchscreen · 3D Printing**
+
+A custom programmable smartwatch built around the Waveshare ESP32-S3 Touch LCD 1.28-inch development board.
+
+The project combines a round touchscreen, embedded firmware, custom graphical interfaces, and a purpose-built 3D-printed wearable enclosure.
+
+**Hardware:**
+- Waveshare ESP32-S3 Touch LCD 1.28"
+- 240 × 240 round IPS display
+- Capacitive touchscreen
+- Onboard IMU
+- Integrated battery management
+
+**Software & Design:**
+- C++ Arduino firmware
+- LVGL graphical interface
+- Custom watch faces
+- Utility applications
+- Touch-based navigation
+- Custom 3D-printed watch body and strap mounts
+
+The objective is to develop a fully customizable smartwatch rather than relying on an off-the-shelf wearable operating system.
+
+[**View Repository →**](https://github.com/PepesProjects101/smarterwatch)
+
+## 04. MacinClock
+**ESP32 · ILI9341 · DS3231 RTC · C++ · 3D Printing**
+
+A miniature vintage Macintosh-inspired desktop clock that recreates the look and feel of classic Macintosh computers.
+
+The device uses an ESP32 to render a retro computer interface on a color TFT display, with a dedicated real-time clock module for accurate timekeeping.
+
+**Hardware:**
+- ESP32 microcontroller
+- ILI9341 SPI TFT display
+- DS3231 real-time clock module
+- Custom 3D-printed Macintosh enclosure
+
+**Features:**
+- Macintosh-inspired display interface
+- Dedicated real-time clock
+- Battery-backed timekeeping
+- Custom retro desktop enclosure
+- Embedded graphics and display control
+
+The project combines retro computing aesthetics with modern embedded electronics.
+
+[**View Repository →**](https://github.com/PepesProjects101/macinclock)
+
+## 05. Web-Controlled Filament Dryer
+**ESP32 · Wi-Fi · Web Server · Temperature Monitoring**
+
+A custom Wi-Fi-enabled 3D printing filament dryer built by repurposing spare components from a Creality Ender 3 V2 Neo.
+
+Rather than purchasing an entirely new drying system, this project uses existing printer hardware and an ESP32 to create a remotely controllable drying chamber.
+
+**Hardware:**
+- ESP32 DevKit V1
+- NTC thermistor
+- Tolako 5V relay module
+- Repurposed Ender 3 V2 Neo heatsink
+- Cooling fan
+
+**Software & Features:**
+- Built-in ESP32 web server
+- Live chamber temperature monitoring
+- Wi-Fi connectivity
+- Remote drying-cycle toggling
+- Relay-controlled heating system
+
+The project explores practical IoT applications and hardware reuse within the 3D printing ecosystem.
+
+[**View Repository →**](https://github.com/PepesProjects101/esp32-filament-dryer)
+
+## 06. Timmy 2.0
+**ESP32 · C++ · ST7789V · Custom Gaming Firmware**
+
+A standalone handheld gaming device designed and programmed from scratch.
+
+Timmy 2.0 runs approximately 3,200 lines of custom C++ firmware and features a custom launcher, multiple original game implementations, and a procedural neon-themed startup screen.
+
+**Hardware:**
+- ESP32 DevKit V1
+- Waveshare 2-inch ST7789V TFT display
+- 240 × 320 resolution, configured in landscape
+- MicroSD card reader
+- Passive buzzer
+- Tactile button matrix
+
+**Custom Firmware:**
+- Custom launcher and menu system
+- Display rendering and input handling
+- Procedural neon splash screen
+- Audio feedback through a passive buzzer
+- Game selection and navigation
+
+**Five playable games:**
+1. Tetris
+2. Snake
+3. Flappy Bird
+4. AI Tic-Tac-Toe
+5. Retro Racing
+
+The project demonstrates how a relatively inexpensive ESP32 can be used to create a complete standalone gaming system with custom firmware and multiple playable applications.
+
+[**View Repository →**](https://github.com/PepesProjects101/timmy-2)
+
+## 07. PocketPi Series
+**Raspberry Pi Zero · Python · RetroPie · 3D Printing**
+
+A collection of portable retro gaming handheld projects based on the PiGRRL Zero concept.
+
+These builds explore compact Raspberry Pi systems, portable gaming hardware, and custom enclosures.
+
+**Hardware & Software:**
+- Raspberry Pi Zero / Zero 2 W
+- RetroPie
+- Python
+- GPIO-connected gamepad controls
+- Custom 3D-printed enclosures
+
+The focus is on combining single-board computers, physical controls, and compact mechanical designs into portable gaming systems.
+
+[**View Repository →**](https://github.com/PepesProjects101/pocketpi)
+
+## 08. Batocera "Baby North"
+**Raspberry Pi 5 · Batocera Linux · Retro Emulation**
+
+A compact desktop retro gaming console built around the Raspberry Pi 5.
+
+The system uses Batocera Linux to provide a dedicated emulation environment inside a custom-designed chassis.
+
+**Hardware & Software:**
+- Raspberry Pi 5 (2GB)
+- Batocera Linux
+- Custom-designed thermal chassis
+- Compact desktop form factor
+- Retro gaming and emulation environment
+
+The project focuses on creating a small, dedicated retro gaming system with an emphasis on compact hardware integration and thermal design.
+
+[**View Repository →**](https://github.com/PepesProjects101/baby-north-console)
 
 ---
 
-### 3. SmarterWatch
-**ESP32-S3 · Touchscreen · Embedded C++ · 3D Printing**
+## 🔬 What I'm Exploring
 
-A custom-built smartwatch based around a Waveshare ESP32-S3 round touchscreen display.
+I'm constantly experimenting with new technologies and looking for ways to make my projects more capable.
 
-The project focuses on creating a fully custom wearable device, including its hardware, firmware, interface, and physical enclosure.
+Some of my main interests include:
 
-**Highlights:**
-* ESP32-S3 microcontroller
-* Round touchscreen display
-* Custom-designed user interface
-* Embedded firmware
-* 3D-printed watch enclosure
-* Compact wearable electronics design
+- **Embedded Systems:** More advanced ESP32 applications, sensor integration, and custom firmware.
+- **Custom PC Peripherals:** Physical interfaces for controlling computers, audio, lighting, and applications.
+- **IoT Development:** Wi-Fi-connected devices, remote monitoring, and browser-based hardware control.
+- **Wearable Electronics:** Custom smartwatches and compact touchscreen devices.
+- **3D Printing:** Functional enclosures, mechanical assemblies, and rapid prototyping.
+- **Game Development:** Small-scale games and custom gaming hardware.
+- **Hardware & Software Integration:** Connecting microcontrollers to desktop applications and operating systems.
 
-[View Project](https://github.com/PepesProjects101/smarterwatch)
+## ⚙️ How I Build
 
----
+I enjoy managing the entire development process, from the first idea to the finished physical device.
 
-### 4. MacinClock
-**ESP32 · ILI9341 · Embedded C++**
+My typical workflow:
 
-A miniature vintage Macintosh-inspired desktop clock that recreates the aesthetic of classic Apple computers in a compact physical device.
+1. **Concept:** Identify a problem or come up with an idea for a useful device.
+2. **Research:** Explore components, sensors, microcontrollers, and possible implementations.
+3. **Electronics:** Prototype circuits, configure pinouts, and integrate hardware.
+4. **Firmware:** Develop the embedded software and communication systems.
+5. **Mechanical Design:** Model custom enclosures and components in Blender.
+6. **Fabrication:** 3D print and assemble the physical hardware.
+7. **Testing:** Debug, troubleshoot, improve, and refine the finished project.
 
-**Features include:**
-* ESP32-powered electronics
-* ILI9341 color display
-* Retro Macintosh-inspired interface
-* Custom display graphics
-* Compact desktop enclosure
-
-A combination of retro computing aesthetics, embedded programming, and custom hardware design.
-
-[View Project](https://github.com/PepesProjects101/macinclock)
+I prefer building things that actually work in the real world, not just software simulations or theoretical designs.
 
 ---
 
-### 5. Web-Controlled Filament Dryer
-**ESP32 · Wi-Fi · Python/HTML · Temperature Control**
+## 📫 Find Me
 
-A custom filament drying system designed to help maintain 3D printing filament by controlling a heated drying enclosure.
-
-Built using an ESP32, an Ender 3 heatsink and fan, and a relay-controlled heating system.
-
-**Highlights:**
-* Wi-Fi connectivity
-* Web-based control interface
-* ESP32-based control electronics
-* Relay-controlled heating
-* Integrated cooling fan
-* Repurposed 3D printer hardware
-
-The goal is to create an inexpensive, remotely controllable filament dryer using readily available components.
-
-[View Project](https://github.com/PepesProjects101/esp32-filament-dryer)
+- **GitHub:** [@PepesProjects101](https://github.com/PepesProjects101)
+- **Location:** Connecticut, USA
 
 ---
 
-### 6. Timmy 2.0
-**ESP32 · C++ · TFT Display · 3D Printing**
-
-A custom ESP32-powered handheld gaming device designed and built from scratch.
-
-The device features a 320 × 240 color display, custom firmware, and a purpose-built handheld enclosure.
-
-**Highlights:**
-* ESP32 microcontroller
-* 320 × 240 display
-* Custom C++ firmware
-* Physical gaming controls
-* 3D-printed handheld enclosure
-* Portable gaming-focused hardware
-
-[View Project](https://github.com/PepesProjects101/timmy-2)
-
----
-
-### 7. PocketPi Series
-**Raspberry Pi Zero · Retro Gaming · Portable Electronics**
-
-A series of compact, portable retro gaming handhelds based on the PiGRRL Zero concept.
-
-The project explores small-form-factor electronics, portable gaming hardware, and custom handheld construction.
-
-**Highlights:**
-* Raspberry Pi Zero platform
-* Portable retro gaming
-* Compact electronics integration
-* Custom handheld hardware
-* 3D-printed components
-
-[View Project](https://github.com/PepesProjects101/pocketpi)
-
----
-
-### 8. Batocera "Baby North"
-**Raspberry Pi 5 · Batocera · Retro Emulation**
-
-A compact retro gaming console built around the Raspberry Pi 5 and Batocera Linux.
-
-Designed as a small living-room emulation system, the project combines single-board computing with a dedicated retro gaming environment.
-
-**Highlights:**
-* Raspberry Pi 5
-* Batocera emulation platform
-* Compact console design
-* Retro gaming support
-* Custom hardware integration
-
-[View Project](https://github.com/PepesProjects101/baby-north-console)
-
----
-
-## 🔬 Current Interests
-
-I'm always experimenting with new ideas and technologies. Some areas I'm particularly interested in include:
-* **Embedded Systems:** Building increasingly complex devices with ESP32 and Arduino platforms.
-* **Custom Hardware:** Designing complete electronic products rather than just individual circuits.
-* **PC Automation:** Connecting physical controls and microcontrollers to desktop applications.
-* **3D Printing:** Developing functional enclosures, mechanical assemblies, and custom components.
-* **User Interfaces:** Creating polished touchscreen interfaces for embedded devices.
-* **Portable Electronics:** Building handheld gaming systems, wearables, and other compact devices.
-
-## 🎯 My Approach
-
-I enjoy handling the entire development process, from the initial concept to the finished physical product.
-
-That usually means:
-1. Coming up with an idea and figuring out how it could work.
-2. Selecting the appropriate microcontrollers, sensors, and components.
-3. Designing the electronics and wiring.
-4. Writing firmware and supporting software.
-5. Modeling and 3D printing custom mechanical parts.
-6. Testing, troubleshooting, and refining the finished device.
-
-I especially enjoy projects that combine hardware and software in interesting ways.
+*Always experimenting. Always building something new.* ⚡

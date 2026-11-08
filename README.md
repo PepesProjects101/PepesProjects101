@@ -300,11 +300,4 @@ I prefer building things that actually work in the real world, not just software
 
 ---
 
-## 📫 Find Me
 
-- **GitHub:** [@PepesProjects101](https://github.com/PepesProjects101)
-- **Location:** Connecticut, USA
-
----
-
-*Always experimenting. Always building something new.* ⚡

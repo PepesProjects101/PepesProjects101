@@ -207,9 +207,3 @@ I especially enjoy projects that combine hardware and software in interesting wa
 
 ---
 
-## 📫 Find Me
-
-- **GitHub:** [YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- **Location:** Connecticut, USA
-
-*Always building something new.* ⚡
